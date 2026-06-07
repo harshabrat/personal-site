@@ -11,31 +11,24 @@ compile_sass = true
 build_search_index = false
 
 # When set to "true", a feed is automatically generated.
-generate_feed = true
+generate_feeds = true
 
-[markdown]
-# When set to "true", all code blocks are highlighted.
-highlight_code = true
-
-# The theme to use for code highlighting.
-# See Zola configuration docs for list of allowed values.
-highlight_theme = "css"
-highlight_themes_css = [
-  { theme = "material-dark", filename = "syntax-theme-dark.css" },
-  { theme = "material-light", filename = "syntax-theme-light.css" },
-]
+[markdown.highlighting]
+style = "class"
+light_theme = "material-theme-lighter"
+dark_theme = "material-theme-darker"
 
 [languages]
 
 [languages.en]
-title = "Papaya"
-description = "A clean Zola theme for blogging and projects"
-generate_feed = true
-feed_filename = "atom.xml"
+title = "Harshabrat"
+description = "Aspiring Data Scientist"
+generate_feeds = true
+feed_filenames = ["atom.xml"]
 # The taxonomies to be rendered for the site and their configuration of the default languages
 taxonomies = [
-    { name = "tags", feed = true, lang = "en" },
-    { name = "categories", feed = true, lang = "en" },
+    { name = "tags", feed = true },
+    { name = "categories", feed = true },
 ]
 
 [languages.en.translations]
@@ -61,14 +54,13 @@ next_page = "To older posts"
 date_format = "%B %e, %Y"
 
 [languages.zh]
-title = "帕帕雅"
-description = "一个清新的 Zola 博客与项目模板"
-base_url = "https://justintennant.me/papaya/zh"
-generate_feed = true
+title = "Harshabrat"
+description = "数据科学学习笔记与个人博客"
+generate_feeds = true
 # The taxonomies to be rendered for the site and their configuration of the default languages
 taxonomies = [
-    { name = "tags", feed = true, lang = "zh" },
-    { name = "categories", feed = true, lang = "zh" },
+    { name = "tags", feed = true },
+    { name = "categories", feed = true },
 ]
 
 [languages.zh.translations]
@@ -98,7 +90,7 @@ date_format = "%Y 年 %m 月 %d 日"
 env = "ZOLA_ENV"
 
 # Color theme mode. Options: light, dark, auto (automatically switch depending on OS/user agent settings)
-color_mode = "auto"
+color_mode = "light"
 
 # List of Papaya navigational menu items. Used to construct the navigation bar. See the README for item schema.
 menu_items = [
@@ -116,23 +108,16 @@ max_width = 2500
 # Open Graph Protocol objects. See: https://ogp.me/
 [extra.ogp]
 locale = "en_US"
-first_name = "Papaya"
-last_name = "Tiliqua"
-gender = "female"
-username = "tiliquasp"
+first_name = "Harshabrat"
+last_name = "Bora"
+gender = "male"
+username = "harshabrat"
 
-# Footer social links; full options listed in macros/social.html
+# Footer social links; supported options: twitter, github, linkedin
 [extra.social]
-email = "papaya@tiliqua.sp"
 github = "papaya"
-linkedin = "papayatiliqua"
-twitter = "your-user-name"
-zhihu = "your-user-name"
-weibo = "your-user-name"
-bilibili = "your-user-name"
-other = [
-    { name = "BTC", font_awesome = "fa-brands fa-btc", url = "https://www.bitcoin.com/" }
-]
+linkedin = "harshabrat-bora"
+twitter = "harshabrat"
 
 # CDN links
 [extra.cdn]

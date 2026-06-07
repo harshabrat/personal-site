@@ -1,98 +1,30 @@
 +++
-title = "More on Skinks"
+title = "Working with Tabular Data in Python"
 date = 2021-10-02
 
 [taxonomies]
-tags = ["other"]
+tags = ["python", "tutorial"]
 +++
 
-Many species are good burrowers. More species are terrestrial or fossorial (burrowing) than arboreal (tree-climbing) or aquatic species.
+Most real-world datasets arrive as tables: rows are observations, columns are variables. pandas makes it straightforward to load, filter, and summarize that kind of data in Python.
 
 <!-- more -->
 
-Some are "sand swimmers", especially the desert species, such as the mole skink or sand skink in Florida. Some use a very similar action in moving through grass tussocks. Most skinks are diurnal (day-active) and typically bask on rocks or logs during the day.
+Once your data is in a DataFrame, a few operations cover a large share of everyday work: selecting columns, filtering rows, grouping by categories, and handling missing values. Getting fluent with these basics saves hours later.
 
-# Heading 1
+Use bracket notation or .loc to slice rows and columns. Boolean masks are handy when you need conditional filters, for example keeping only records from a given year or above a threshold.
 
-## Heading 2
+Group-by operations let you compute means, counts, and custom statistics per category. This is often the fastest way to spot patterns before building a model.
 
-### Heading 3
+Decide early whether to drop, impute, or flag missing values. The right choice depends on how much data is missing and why.
 
-#### Heading 4
+A simple workflow:
 
-##### Heading 5
+1. Load the data
+2. Inspect dtypes and null counts
+3. Clean and transform
+4. Analyze and export results
 
-###### Heading 6
+Use .info() and .describe() after loading. Watch for duplicated rows. Keep raw data unchanged and transform copies instead. Always validate that joins and filters return the row counts you expect.
 
-Skinks are very specific in their habitat as some can depend on vegetation while others may depend on land and the soil. As a family, skinks are cosmopolitan; species occur in a variety of habitats worldwide, apart from boreal and polar regions. Various species occur in ecosystems ranging from deserts and mountains to grasslands.
-
-Raccoons, foxes, possums, snakes, coatis, crows, cats, dogs, herons, hawks, lizards, and other predators of small land vertebrates also prey on various skinks. This can be troublesome, given the long gestation period for some skinks, making them an easy target to predators such as the mongoose, which often threaten the species to at least near extinction, such as the Anguilla Bank skink. Invasive rodents are a major threat to skinks that has been overlooked, especially tropical skinks.
-
-
-## Blockquote
-
-> This is a blockquote
-> with several lines
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but Zola supports supports them out-of-the-box.
-
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
-
-## Inline Markdown within tables
-
-| Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
-| ---------- | --------- | ----------------- | ---------- |
-| *italics*  | **bold**  | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code`     |
-
-## Code Blocks
-
-#### Code block with backticks
-
-```python
-prices = {'apple': 0.40, 'banana': 0.50}
-my_purchase = {
-  'apple': 1,
-  'banana': 6
-}
-grocery_bill = sum(prices[fruit] * my_purchase[fruit]
-                   for fruit in my_purchase)
-print('I owe the grocer $%.2f' % grocery_bill)
-```
-
-## List Types
-
-#### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List
-
-* List item
-* Another item
-* And another item
-
-#### Nested list
-
-* Item
-    1. First Sub-item
-    2. Second Sub-item
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
-
-<mark>Skinks</mark> can often hide easily in their habitat because of their protective colouring (camouflage).
-
+CSV remains the most common interchange format. NaN represents a missing value in pandas.

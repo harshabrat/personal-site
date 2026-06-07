@@ -443,30 +443,9 @@ Example:
 
 ```toml
 [extra.social]
-email = "papaya@tiliqua.sp"
 github = "papaya"
 linkedin = "papayatiliqua"
 twitter = "papayathehisser"
-```
-
-If you want to include other custom social websites, you can add them to `other`:
-
-Example:
-
-```toml
-[extra.social]
-other = [
-    { name = "BTC", font_awesome = "fa-brands fa-btc", url = "https://www.bitcoin.com/" }
-]
-```
-
-The `font_awesome` attribute specifies the Font Awesome classes; you can find them in [Font Awesome](https://fontawesome.com/). Be aware that different versions of Font Awesome may include different sets of icons; you can change your version of Font Awesome by updating the CDN path in the `[extra.cdn]` section:
-
-```toml
-[extra]
-
-[extra.cdn]
-font_awesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
 ```
 
 ## Image embedding shortcode

@@ -4,9 +4,6 @@ date = 2020-08-22
 
 [taxonomies]
 categories = ["data-science"]
-
-[extra]
-featured_image = "image.jpg"
 +++
 
 A practical checklist for turning a messy dataset into something ready for analysis.
@@ -23,4 +20,4 @@ My usual pass includes:
 - Look for duplicate records and impossible values.
 - Keep raw data unchanged and document transformations.
 
-This page is a placeholder for a fuller project writeup, but it now reflects the kind of work I want the site to present instead of shipping theme demo text.
+This writeup reflects the kind of careful preparation I want every data project to start with: simple checks, clear notes, and transformations that can be reproduced later.

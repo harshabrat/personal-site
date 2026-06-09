@@ -1,12 +1,16 @@
 +++
 title = "Personal Website"
-date = 2021-08-11
+date = 2025-04-29
+
 
 [taxonomies]
 categories = ["software"]
 +++
 
-This site is my personal space for data science notes, experiments, and project writeups.
+Built this site to have a place for my stuff. projects, blogs, random notes, it's all here.
+
+
+
 
 <!-- more -->
 

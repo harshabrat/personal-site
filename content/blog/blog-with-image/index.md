@@ -12,4 +12,3 @@ A good chart answers a question at a glance. Before reaching for the most comple
 
 When exploring time series or category comparisons, label your axes, use readable colors, and title the figure with the takeaway rather than the chart type. Your future self and your audience will thank you.
 
-{{ img(path="./image.jpg", alt="Sample data visualization", caption="A simple plot can highlight trends that tables hide.") }}

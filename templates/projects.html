@@ -11,18 +11,20 @@
     {% endif %}
 
     {% for category, tag in project_categories %}
-        <h1>{{ category }}</h1>
+        {% set_global has_projects = false %}
         {% for page in section.pages %}
             {% if page.taxonomies.categories is containing(tag) %}
-                {{ page_macros::project_listing(page=page) }}
+                {% set_global has_projects = true %}
             {% endif %}
         {% endfor %}
-    {% endfor %}
 
-    <h1>{{ trans(key="other", lang=lang) }}</h1>
-    {% for page in section.pages %}
-        {% if page.taxonomies.categories | length == 0 %}
-            {{ page_macros::project_listing(page=page) }}
+        {% if has_projects %}
+            <h1>{{ category }}</h1>
+            {% for page in section.pages %}
+                {% if page.taxonomies.categories is containing(tag) %}
+                    {{ page_macros::project_listing(page=page) }}
+                {% endif %}
+            {% endfor %}
         {% endif %}
     {% endfor %}
 

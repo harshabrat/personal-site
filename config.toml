@@ -2,7 +2,7 @@
 base_url = "https://harshabrat.github.io/personal-site"
 
 title = "Harshabrat"
-description = "Aspiring Data Scientist"
+description = "Hi 👋, I am a CS student who spends too much time cleaning data and not enough sleeping. I post projects, write about whatever I'm working on, and occasionally blog about life and whatever's on my mind."
 
 default_language = "en"
 
@@ -43,7 +43,7 @@ category = "Category"
 categories = "Categories"
 to_all_categories = "To all categories"
 view_by = "View by"
-other = "Other"
+artificial_intelligence = "Artificial Intelligence"
 minute = "min"
 prev_page = "To newer posts"
 next_page = "To older posts"
@@ -57,7 +57,7 @@ env = "ZOLA_ENV"
 # Color theme mode. Options: light, dark, auto (automatically switch depending on OS/user agent settings)
 color_mode = "light"
 
-# List of Papaya navigational menu items. Used to construct the navigation bar. See the README for item schema.
+# Navigation menu items used to construct the navigation bar.
 menu_items = [
     { name = "projects", url = "$LANG_BASE_URL/projects", show_recent = true, recent_items = 3, recent_trans_key = "recent_projects", more_trans_key = "more_projects" },
     { name = "blog", url = "$LANG_BASE_URL/blog", show_recent = true, recent_items = 3, recent_trans_key = "recent_blog_posts", more_trans_key = "more_blog_posts" },

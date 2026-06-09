@@ -9,6 +9,9 @@
         <p>
             {{ config.description }}
         </p>
+        <p>
+            <a href="{{ get_url(path='chiki-resume.pdf') | safe }}" target="_blank" rel="noopener noreferrer">Check out my resume →</a>
+        </p>
     </section>
     <section class="index-columns">
     {% for subsec in config.extra.menu_items | filter(attribute="show_recent", value=true) %}

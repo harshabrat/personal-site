@@ -1,5 +1,8 @@
 # The URL the site will be built for
-base_url = "https://justintennant.me/papaya"
+base_url = "https://harshabrat.github.io/personal-site"
+
+title = "Harshabrat"
+description = "Aspiring Data Scientist"
 
 default_language = "en"
 
@@ -12,26 +15,20 @@ build_search_index = false
 
 # When set to "true", a feed is automatically generated.
 generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+# The taxonomies to be rendered for the site and their configuration
+taxonomies = [
+    { name = "tags", feed = true },
+    { name = "categories", feed = true },
+]
 
 [markdown.highlighting]
 style = "class"
 light_theme = "material-theme-lighter"
 dark_theme = "material-theme-darker"
 
-[languages]
-
-[languages.en]
-title = "Harshabrat"
-description = "Aspiring Data Scientist"
-generate_feeds = true
-feed_filenames = ["atom.xml"]
-# The taxonomies to be rendered for the site and their configuration of the default languages
-taxonomies = [
-    { name = "tags", feed = true },
-    { name = "categories", feed = true },
-]
-
-[languages.en.translations]
+[translations]
 projects = "Projects"
 blog = "Blog"
 about = "About"
@@ -52,38 +49,6 @@ prev_page = "To newer posts"
 next_page = "To older posts"
 # Customize your post date format. See: https://tera.netlify.app/docs/#date
 date_format = "%B %e, %Y"
-
-[languages.zh]
-title = "Harshabrat"
-description = "数据科学学习笔记与个人博客"
-generate_feeds = true
-# The taxonomies to be rendered for the site and their configuration of the default languages
-taxonomies = [
-    { name = "tags", feed = true },
-    { name = "categories", feed = true },
-]
-
-[languages.zh.translations]
-projects = "项目"
-blog = "博文"
-about = "关于"
-recent_projects = "近期项目"
-more_projects = "更多项目"
-recent_blog_posts = "近期博文"
-more_blog_posts = "更多博文"
-tag = "标签"
-tags = "所有标签"
-to_all_tags = "所有标签"
-category = "类别"
-categories = "所有类别"
-to_all_categories = "所有类别"
-view_by = "查看方式"
-other = "其他"
-minute = "分钟"
-prev_page = "上一页"
-next_page = "下一页"
-# Customize your post date format. See: https://tera.netlify.app/docs/#date
-date_format = "%Y 年 %m 月 %d 日"
 
 [extra]
 # Development environment. Used by the page macros to load remote content only when in "prod" mode
@@ -115,7 +80,7 @@ username = "harshabrat"
 
 # Footer social links; supported options: twitter, github, linkedin
 [extra.social]
-github = "papaya"
+github = "harshabrat"
 linkedin = "harshabrat-bora"
 twitter = "harshabrat"
 

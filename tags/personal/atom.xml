@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Harshabrat - personal</title>
+    <subtitle>Hi 👋, I&#x27;m a CS student who enjoys exploring technology and learning new things. I share projects, write about what I&#x27;m currently working on, and occasionally blog about life and whatever happens to be on my mind.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://harshabrat.github.io/personal-site/tags/personal/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-10-03T00:00:00+00:00</updated>
+    <id>https://harshabrat.github.io/personal-site/tags/personal/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Getting Started with Data Science</title>
+        <published>2021-10-03T00:00:00+00:00</published>
+        <updated>2021-10-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/blog/what-is-zola/"/>
+        <id>https://harshabrat.github.io/personal-site/blog/what-is-zola/</id>
+        
+        <summary type="html">&lt;p&gt;Data science sits at the intersection of statistics, programming, and domain knowledge. You do not need a perfect plan on day one. Start with a question, find a dataset, and learn the tools as you go.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

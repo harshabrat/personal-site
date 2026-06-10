@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Harshabrat</title>
+    <subtitle>Hi 👋, I&#x27;m a CS student who enjoys exploring technology and learning new things. I share projects, write about what I&#x27;m currently working on, and occasionally blog about life and whatever happens to be on my mind.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://harshabrat.github.io/personal-site/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-11-14T00:00:00+00:00</updated>
+    <id>https://harshabrat.github.io/personal-site/atom.xml</id>
+    <entry xml:lang="en">
+        <title>AmbedOntoS: Large Scale Ontology Synthesis for Ambedkar and Peace Studies</title>
+        <published>2025-11-14T00:00:00+00:00</published>
+        <updated>2025-11-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/projects/project-7/"/>
+        <id>https://harshabrat.github.io/personal-site/projects/project-7/</id>
+        
+        <summary type="html">&lt;p&gt;A published research work on large-scale ontology synthesis for Ambedkar and Peace Studies, presented in the International Conference on Data Science, Computation and Security.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Visualization Notes</title>
+        <published>2025-09-16T00:00:00+00:00</published>
+        <updated>2025-09-16T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/projects/project-3/"/>
+        <id>https://harshabrat.github.io/personal-site/projects/project-3/</id>
+        
+        <summary type="html">&lt;p&gt;Short notes on making charts easier to read and easier to trust.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Personal Website</title>
+        <published>2025-04-29T00:00:00+00:00</published>
+        <updated>2025-04-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/projects/project-1/"/>
+        <id>https://harshabrat.github.io/personal-site/projects/project-1/</id>
+        
+        <summary type="html">&lt;p&gt;Built this site to have a place for my stuff. projects, blogs, random notes, it&#x27;s all here.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ResearchGPT</title>
+        <published>2025-04-29T00:00:00+00:00</published>
+        <updated>2025-04-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/projects/project-4/"/>
+        <id>https://harshabrat.github.io/personal-site/projects/project-4/</id>
+        
+        <summary type="html">&lt;p&gt;ResearchGPT is a Retrieval-Augmented Generation system for querying and summarizing scientific research papers using natural language questions.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>VisionCraft AI</title>
+        <published>2025-04-28T00:00:00+00:00</published>
+        <updated>2025-04-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/projects/project-5/"/>
+        <id>https://harshabrat.github.io/personal-site/projects/project-5/</id>
+        
+        <summary type="html">&lt;p&gt;VisionCraft AI is a text-to-image generation project built around Stable Diffusion and Hugging Face Diffusers.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Customer Churn Prediction System</title>
+        <published>2025-04-27T00:00:00+00:00</published>
+        <updated>2025-04-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/projects/project-6/"/>
+        <id>https://harshabrat.github.io/personal-site/projects/project-6/</id>
+        
+        <summary type="html">&lt;p&gt;A machine learning pipeline for predicting customer churn using classification models and feature engineering.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Clean Data Beats Fancy Models</title>
+        <published>2021-10-04T00:00:00+00:00</published>
+        <updated>2021-10-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/blog/no-summary/"/>
+        <id>https://harshabrat.github.io/personal-site/blog/no-summary/</id>
+        
+        <content type="html" xml:base="https://harshabrat.github.io/personal-site/blog/no-summary/">&lt;p&gt;A polished model on dirty data will mislead you every time. Spending an extra hour on validation, outlier checks, and consistent units often matters more than swapping algorithms.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Getting Started with Data Science</title>
+        <published>2021-10-03T00:00:00+00:00</published>
+        <updated>2021-10-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/blog/what-is-zola/"/>
+        <id>https://harshabrat.github.io/personal-site/blog/what-is-zola/</id>
+        
+        <summary type="html">&lt;p&gt;Data science sits at the intersection of statistics, programming, and domain knowledge. You do not need a perfect plan on day one. Start with a question, find a dataset, and learn the tools as you go.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Working with Tabular Data in Python</title>
+        <published>2021-10-02T00:00:00+00:00</published>
+        <updated>2021-10-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/blog/another-post/"/>
+        <id>https://harshabrat.github.io/personal-site/blog/another-post/</id>
+        
+        <summary type="html">&lt;p&gt;Most real-world datasets arrive as tables: rows are observations, columns are variables. pandas makes it straightforward to load, filter, and summarize that kind of data in Python.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Visualizing Trends with Charts</title>
+        <published>2021-10-01T00:00:00+00:00</published>
+        <updated>2021-10-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/blog/blog-with-image/"/>
+        <id>https://harshabrat.github.io/personal-site/blog/blog-with-image/</id>
+        
+        <summary type="html">&lt;p&gt;A good chart answers a question at a glance. Before reaching for the most complex plot type, try a simple line or bar chart. Clarity beats decoration.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Data Cleaning Checklist</title>
+        <published>2020-08-22T00:00:00+00:00</published>
+        <updated>2020-08-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/projects/project-2/"/>
+        <id>https://harshabrat.github.io/personal-site/projects/project-2/</id>
+        
+        <summary type="html">&lt;p&gt;A practical checklist for turning a messy dataset into something ready for analysis.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

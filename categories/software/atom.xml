@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Harshabrat - software</title>
+    <subtitle>Hi 👋, I&#x27;m a CS student who enjoys exploring technology and learning new things. I share projects, write about what I&#x27;m currently working on, and occasionally blog about life and whatever happens to be on my mind.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://harshabrat.github.io/personal-site/categories/software/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-04-29T00:00:00+00:00</updated>
+    <id>https://harshabrat.github.io/personal-site/categories/software/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Personal Website</title>
+        <published>2025-04-29T00:00:00+00:00</published>
+        <updated>2025-04-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://harshabrat.github.io/personal-site/projects/project-1/"/>
+        <id>https://harshabrat.github.io/personal-site/projects/project-1/</id>
+        
+        <summary type="html">&lt;p&gt;Built this site to have a place for my stuff. projects, blogs, random notes, it&#x27;s all here.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

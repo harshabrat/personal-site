@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://harshabrat.github.io/personal-site/sitemap.xml

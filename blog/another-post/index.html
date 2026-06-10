@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+
+    <title>Working with Tabular Data in Python - Harshabrat</title>
+    <meta name="description" content="Hi 👋, I&#x27;m a CS student who enjoys exploring technology and learning new things. I share projects, write about what I&#x27;m currently working on, and occasionally blog about life and whatever happens to be on my mind.">
+
+    
+    <link rel="stylesheet" href="https://harshabrat.github.io/personal-site/base.css">
+    <link rel="stylesheet" href="https://harshabrat.github.io/personal-site/light.css">
+
+    <link rel="preload" href=https:&#x2F;&#x2F;cdnjs.cloudflare.com&#x2F;ajax&#x2F;libs&#x2F;font-awesome&#x2F;6.3.0&#x2F;css&#x2F;all.min.css as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href=https:&#x2F;&#x2F;cdnjs.cloudflare.com&#x2F;ajax&#x2F;libs&#x2F;font-awesome&#x2F;6.3.0&#x2F;css&#x2F;all.min.css></noscript>
+
+    
+    
+    <meta property="og:locale" content="en_US">
+    
+    <meta property="og:title" content="Working with Tabular Data in Python">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="https://harshabrat.github.io/personal-site/about/">
+    <meta property="article:published_time" content="2021-10-02">
+    
+    
+    <meta property="article:tag" content="python">
+    
+    <meta property="article:tag" content="tutorial">
+    
+    
+    
+    
+    <meta property="og:url" content="https://harshabrat.github.io/personal-site/blog/another-post/">
+    
+    
+    <meta property="og:description" content="Most real-world datasets arrive as tables: rows are observations, columns are variables. pandas makes it straightforward to load, filter, and summarize that kind of data in Python.">
+    
+
+
+    
+    
+</head>
+<body>
+<div class="container">
+    
+    
+    <header>
+        <h1 class="site-header">
+            <a href="https:&#x2F;&#x2F;harshabrat.github.io&#x2F;personal-site">Harshabrat</a>
+        </h1>
+        <nav>
+            <ul>
+            
+            
+                
+                <li><a  href="https:&#x2F;&#x2F;harshabrat.github.io&#x2F;personal-site&#x2F;projects">Projects</a></li>
+            
+                
+                <li><a class="active" href="https:&#x2F;&#x2F;harshabrat.github.io&#x2F;personal-site&#x2F;blog">Blog</a></li>
+            
+                
+                <li><a  href="https:&#x2F;&#x2F;harshabrat.github.io&#x2F;personal-site&#x2F;tags">Tags</a></li>
+            
+                
+                <li><a  href="https:&#x2F;&#x2F;harshabrat.github.io&#x2F;personal-site&#x2F;about">About</a></li>
+            
+            
+            </ul>
+        </nav>
+    </header>
+    
+    
+
+<article class="post">
+    
+    
+    
+        
+        <header>
+            <h1>Working with Tabular Data in Python</h1>
+            <h2 class="post-summary">Most real-world datasets arrive as tables: rows are observations, columns are variables. pandas makes it straightforward to load, filter, and summarize that kind of data in Python.</h2>
+        </header>
+        
+        
+    <div class="article-info">
+        
+        
+        <div class="article-date">October  2, 2021 ◦ 2 min ◦ </div>
+        
+        <div class="article-taxonomies">
+            
+            
+                <ul class="article-tags">
+                    
+                    <li><a href="https://harshabrat.github.io/personal-site/tags/python/">#python</a></li>
+                    
+                    <li><a href="https://harshabrat.github.io/personal-site/tags/tutorial/">#tutorial</a></li>
+                    
+                </ul>
+            
+        </div>
+    </div>
+
+        
+    
+    
+    <div class="content">
+        
+<span id="continue-reading"></span>
+<p>Once your data is in a DataFrame, a few operations cover a large share of everyday work: selecting columns, filtering rows, grouping by categories, and handling missing values. Getting fluent with these basics saves hours later.</p>
+<p>Use bracket notation or .loc to slice rows and columns. Boolean masks are handy when you need conditional filters, for example keeping only records from a given year or above a threshold.</p>
+<p>Group-by operations let you compute means, counts, and custom statistics per category. This is often the fastest way to spot patterns before building a model.</p>
+<p>Decide early whether to drop, impute, or flag missing values. The right choice depends on how much data is missing and why.</p>
+<p>A simple workflow:</p>
+<ol>
+<li>Load the data</li>
+<li>Inspect dtypes and null counts</li>
+<li>Clean and transform</li>
+<li>Analyze and export results</li>
+</ol>
+<p>Use .info() and .describe() after loading. Watch for duplicated rows. Keep raw data unchanged and transform copies instead. Always validate that joins and filters return the row counts you expect.</p>
+<p>CSV remains the most common interchange format. NaN represents a missing value in pandas.</p>
+
+    </div>
+    
+
+    
+</article>
+
+
+    <footer>
+        <p>
+            
+<span class="icon-text">
+  
+  <a href="https://twitter.com/harshabrat" aria-label="Open harshabrat Twitter" target="_blank">
+    <span class="icon is-large">
+      <i class="fab fa-twitter fa-lg" aria-hidden="true" title="Twitter"></i>
+    </span>
+  </a>
+  
+
+  
+  <a href="https://github.com/harshabrat" aria-label="Open harshabrat GitHub" target="_blank">
+    <span class="icon is-large">
+      <i class="fab fa-github fa-lg" aria-hidden="true" title="GitHub"></i>
+    </span>
+  </a>
+  
+
+  
+  <a href="https://www.linkedin.com/in/harshabrat-bora" aria-label="Open harshabrat-bora LinkedIn" target="_blank">
+    <span class="icon is-large">
+      <i class="fab fa-linkedin fa-lg" aria-hidden="true" title="LinkedIn"></i>
+    </span>
+  </a>
+  
+</span>
+
+        </p>
+        <p>
+            
+            &copy; 2026 Harshabrat Bora
+            
+        </p>
+    </footer>
+</div>
+</body>
+</html>

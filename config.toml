@@ -2,7 +2,8 @@
 base_url = "https://harshabrat.github.io/personal-site"
 
 title = "Harshabrat"
-description = "Hi 👋, I am a CS student who spends too much time cleaning data and not enough sleeping. I post projects, write about whatever I'm working on, and occasionally blog about life and whatever's on my mind."
+description = "Hi 👋, I'm a CS student who enjoys exploring technology and learning new things. I share projects, write about what I'm currently working on, and occasionally blog about life and whatever happens to be on my mind."
+
 
 default_language = "en"
 
